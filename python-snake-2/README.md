@@ -15,15 +15,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-3. Set up MongoDB Atlas:
-- Create a MongoDB Atlas account
-- Create a new cluster
-- Get your connection string
-- Create a `.env` file in the root directory with:
-```
-MONGODB_URI=your_mongodb_connection_string
-```
-
 ## Running the Game
 
 1. Start the Flask server:
